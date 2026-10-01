@@ -186,11 +186,11 @@ Voici le flux que nous présentons au jury pour illustrer la valeur ajoutée de 
 ## 📚 Documentation Détaillée
 
 Pour des informations techniques spécifiques à chaque composant, veuillez consulter les README individuels :
-- [Documentation Infrastructure & Vault](./repo-infra/README.md)
-- [Documentation Backend & API](./repo-backend/README.md)
-- [Documentation Frontend](./repo-frontend/README.md)
-- [Documentation Rotation API](./repo-secrets-mgmt/README.md)
-- [Documentation Détection & SIEM (Volet B)](./repo-security/README.md)
+- [Documentation Infrastructure & Vault](https://github.com/taskflow-pfa-2026/repo-infra/README.md)
+- [Documentation Backend & API](https://github.com/taskflow-pfa-2026/repo-backend/README.md)
+- [Documentation Frontend](https://github.com/taskflow-pfa-2026/repo-frontend/README.md)
+- [Documentation Rotation API](https://github.com/taskflow-pfa-2026/repo-secrets-mgmt/README.md)
+- [Documentation Détection & SIEM (Volet B)](https://github.com/taskflow-pfa-2026/repo-security/README.md)
 
 ---
 
