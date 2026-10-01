@@ -24,8 +24,8 @@ Ce projet simule un environnement d'entreprise réel où les développeurs et le
 
 | Volet | Responsable | OS Hôte | Environnement d'exécution | Particularités techniques gérées |
 | :--- | :--- | :--- | :--- | :--- |
-| **Volet A** (App & Secrets) | Dmitri | **Windows 11** | Docker Desktop (Backend WSL2), PowerShell, VS Code | Gestion des permissions de volumes WSL2 pour Vault, hot-reloading, résolution des conflits de ports Windows. |
-| **Volet B** (SIEM & Détection) | [Nom du binôme] | **Linux** (Ubuntu/Debian) | Docker Engine (natif), Bash, Systemd, Cron | Déploiement natif de Wazuh, services systemd pour le watcher, automatisation via crontab. |
+| **Volet A** (App & Secrets) | Mohamed | **Windows 11** | Docker Desktop (Backend WSL2), PowerShell, VS Code | Gestion des permissions de volumes WSL2 pour Vault, hot-reloading, résolution des conflits de ports Windows. |
+| **Volet B** (SIEM & Détection) | Ismail | **Linux** (Ubuntu/Debian) | Docker Engine (natif), Bash, Systemd, Cron | Déploiement natif de Wazuh, services systemd pour le watcher, automatisation via crontab. |
 | **Liaison** | Les deux | N/A | **Tailscale** | Réseau privé maillé permettant au Volet B d'appeler l'API de rotation du Volet A via l'IP magique `100.x.x.x` sans exposition sur Internet. |
 
 ---
