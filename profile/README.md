@@ -75,11 +75,11 @@ Ce projet simule un environnement d'entreprise réel où les développeurs et le
 
 | Dépôt | Rôle | Responsable |
 | :--- | :--- | :--- |
-| 📂 **[repo-infra](./repo-infra)** | Orchestration Docker, configuration Vault (persistant), scripts d'initialisation. | Dmitri |
-| 📂 **[repo-backend](./repo-backend)** | API métier Flask, client Vault, authentification JWT, Notification API. | Dmitri |
-| 📂 **[repo-frontend](./repo-frontend)** | Interface utilisateur React, programmation défensive contre les erreurs d'API. | Dmitri |
-| 📂 **[repo-secrets-mgmt](./repo-secrets-mgmt)** | Moteur de rotation (FastAPI), logique de routage contextuel, rotateurs spécifiques. | Dmitri |
-| 📂 **[repo-security](./repo-security)** | SIEM Wazuh, pipelines de scan, playbook d'orchestration, suivi du MTTR. | [Nom du binôme] |
+| 📂 **[repo-infra](./repo-infra)** | Orchestration Docker, configuration Vault (persistant), scripts d'initialisation. | Mohamed |
+| 📂 **[repo-backend](./repo-backend)** | API métier Flask, client Vault, authentification JWT, Notification API. | Mohamed |
+| 📂 **[repo-frontend](./repo-frontend)** | Interface utilisateur React, programmation défensive contre les erreurs d'API. | Mohamed |
+| 📂 **[repo-secrets-mgmt](./repo-secrets-mgmt)** | Moteur de rotation (FastAPI), logique de routage contextuel, rotateurs spécifiques. | Mohamed |
+| 📂 **[repo-security](./repo-security)** | SIEM Wazuh, pipelines de scan, playbook d'orchestration, suivi du MTTR. | Ismail |
 
 ---
 
@@ -87,7 +87,7 @@ Ce projet simule un environnement d'entreprise réel où les développeurs et le
 
 Pour une démonstration réussie, il est crucial de lancer les environnements dans le bon ordre.
 
-### 🪟 Étape 1 : Lancement du Volet A (Machine Windows - Dmitri)
+### 🪟 Étape 1 : Lancement du Volet A (Machine Windows - Mohamed)
 
 1. **Cloner le dépôt d'infrastructure et les depots de l'application :**
 Dans le meme dossier:
@@ -133,7 +133,7 @@ Dans le meme dossier:
    ```bash
    nano config/rotation_api.conf
    ```
-   *Remplacer l'URL par : `http://<IP_TAILSCALE_DE_DMITRI>:9000`*
+   *Remplacer l'URL par : `http://<IP_TAILSCALE_DE_Mohamed>:9000`*
 4. **Déployer Wazuh (Single-Node) :**
    ```bash
    cd ~/wazuh-docker/single-node
